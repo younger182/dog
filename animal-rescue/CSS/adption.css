@@ -1,0 +1,209 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+header{
+    display: flex;
+    width: auto;
+    padding: 20px;
+    background-color: #FF6600;
+    align-items: center;
+    justify-content: end;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+ul li{
+    display: inline;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+
+ul li a{
+    font-style: bold;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: medium;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+ul li a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.text h1{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.contain{
+    border: none;
+    margin: 50px 105px 0px 105px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 300px;
+    border: none;
+    height: 300px;
+    background-size: cover;
+    background-image: url("/animal-rescue/image/Screenshot\ 2024-08-31\ 190928.png");
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 20px;
+}
+
+.box button{
+    border-radius: 1px;
+    height: 34px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: yelllo(58, 58, 199, 0.526);
+    border: none;
+    margin-left: 2px;
+    background-color: rgb(3, 110, 3);
+    color: white;
+
+    transition: all 0.5s step-start;
+}
+
+.box button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(7, 156, 7);
+}
+
+footer{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(239, 227, 227, 0.575);
+    margin-top: 50px;
+}
+
+#box2{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaH_GB7LL_1LC3slExuq1Cdc5vB4uQrr8XAg&s');
+    background-size: cover;
+}
+
+#box3{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS87mCzwTwPA8kBa2LLSJDeKA7r-zLPiU_T-g&s');
+    background-size: cover;
+}
+#box4{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZlKUDU2KSBKlksWt9VdkkGjpVrRVhkod__Q&s');
+    background-size: cover;
+}
+
+#box5{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpbguShmtR_LPI7ycMAsdffNHaOzZLawlHsg&s');
+    background-size: cover;
+}
+
+
+#box6{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReEHCDQLUzdanyR5yWBHigerX3qLC28Uhb9g&s');
+    background-size: cover;
+}#box7{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOYTfNryew40yT9f1YBlJUVOiuJiCyzFZXnA&s');
+    background-size: cover;
+}#box8{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/005/857/332/small_2x/funny-portrait-of-cute-corgi-dog-outdoors-free-photo.jpg');
+    background-size: cover;
+}#box9{
+    background-image: url('https://img.freepik.com/premium-photo/serious-domestic-striped-cat-is-sitting-steps-house-pokhara-city-nepal_285336-2438.jpg');
+    background-size: cover;
+}#box10{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREI6Oy1Dze85keQHg99n5qZCQtwPs2zQt60w&s');
+    background-size: cover;
+}#box11{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNgpgj5OUkT-doy91im4CCAGpOcxrPL6GWqw&s');
+    background-size: cover;
+}#box12{
+    background-image: url('data:image/jpeg;base64,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');
+    background-size: cover;
+}
+
+
+
+
+
+/* Popup Overlay */
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* Popup Content */
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.popup-content h2 {
+    margin-bottom: 10px;
+}
+
+.popup-content p {
+    margin-bottom: 20px;
+}
+
+/* Close Button */
+.close-btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #ff5f57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+    background-color: #e04e48;
+}

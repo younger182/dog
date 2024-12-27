@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color: #ee5c27;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+    height: 5px;
+}
+
+.text{
+    border: none;
+    font-size: 100px;
+}
+
+button{
+    margin-left: 10px;
+    background-color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover{
+    color: rgb(241, 91, 11);
+    cursor: pointer;
+    background-color: #d32b0575;
+    transition: all 0.1s ease-in-out 0.1s;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 15px;
+    padding: 5px;
+    width: 40%;
+    font-size: 20px;
+    color: white;
+}   
+
+nav li{
+    margin-left: 12px;
+}
+
+nav li:hover {
+    color: #e42306;
+    cursor: pointer;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    color: #e42306;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+}
+.fa-solid-fa-user{
+    text-decoration: none;
+}
+
+.image {
+    height: 100%;
+    margin: 0px 70px 0px 70px;
+    background-color: rgb(215, 215, 250);
+    background-image: url("https://media.licdn.com/dms/image/D4D12AQGwnsTm2ui0qw/article-cover_image-shrink_720_1280/0/1692979356957?e=2147483647&v=beta&t=ZsRsQdWkd4Awheo60KHGiJRh8Ne2MoFvU9x4HLrizYI");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: #FF6600;
+    margin-top: 10px;
+}
+
+.about {
+    padding: 60px;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main1 {
+    width: 60%;
+    margin-left: 70px;
+}
+
+
+.main2{
+    margin-right: 40px;
+}
+
+.main2 h2{
+    text-align: center;
+}
+
+
+
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #FF6600;
+    margin-bottom: 0px;
+}
+
+.homedog{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: black;
+}
+
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: space-evenly; /* Even spacing between items */
+    gap: 10px; /* Optional: Adds consistent spacing between rows */
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Style each image */
+.image-container img {
+    width: 200px; /* Set image width */
+    height: 200px; /* Set image height */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    margin: 10px;
+}
+
+#contact {
+    background-color: #f1f1f1;
+    padding: 50px;
+    text-align: center  ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
